@@ -1,0 +1,26 @@
+﻿.container {
+    height: 90vh;
+    border: solid;
+    border-radius: 5px;
+    border: solid;
+}
+
+@keyframes changewidth {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.moving {
+    /*animation-duration: 1s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;*/
+    position: relative;
+    /*font-size: 3em;*/
+    border: solid;
+}

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "outputFile": "app/app.component.css",
+    "inputFile": "app/app.component.scss"
+  },
+  {
+    "outputFile": "app/scss/home.css",
+    "inputFile": "app/scss/home.scss"
+  },
+  {
+    "outputFile": "app/scss/curtain.css",
+    "inputFile": "app/scss/curtain.scss"
+  },
+  {
+    "outputFile": "app/scss/app.component.css",
+    "inputFile": "app/scss/app.component.scss"
+  },
+  {
+    "outputFile": "site.css",
+    "inputFile": "site.scss"
+  }
+]

@@ -1,0 +1,12 @@
+﻿<div id="container" class="container">
+    <div fxLayout="row" fxLayoutAlign="center center">
+        <div [@topLeft]="'in'"  (@topLeft.done)="animationDone($event)" *ngIf="visible" class="container-top-left container-half-screen" fxLayoutAlign="end end" fxFlex> load</div>
+        <div [@topRight]="'in'" *ngIf="visible" class="container-top-right container-half-screen" fxLayoutAlign="start end" fxFlex>ing...</div>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="center center">
+        <div [@bottomLeft]="'in'" *ngIf="visible" class="container-bottom-left container-half-screen" fxLayoutAlign="end start" fxFlex>please </div>
+        <div [@bottomRight]="'in'" *ngIf="visible" class="container-bottom-right container-half-screen" fxLayoutAlign="start start" fxFlex>&nbsp; wait</div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>

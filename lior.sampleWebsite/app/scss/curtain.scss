@@ -1,0 +1,29 @@
+﻿img {
+    width: 100%;
+}
+
+.top-left {
+    /*background-color: green;*/
+    background-image: linear-gradient(to bottom right, rgb(142, 158, 255), rgb(238, 242, 243));
+}
+
+.bottom-left {
+    /*background-color: red;*/
+    background-image: linear-gradient(to top right, rgb(142, 158, 255), rgb(238, 242, 243));
+}
+
+.bottom-right {
+    /*background-color: yellow;*/
+    background-image: linear-gradient(to top left, rgb(142, 158, 255), rgb(238, 242, 243));
+}
+
+.top-right {
+    /*background-color: blue;*/
+    background-image: linear-gradient(to bottom left, rgb(142, 158, 255), rgb(238, 242, 243));
+}
+
+.div-img {
+    height: 50vh;
+    font-size:4vw;
+    /*background-color: red;*/
+}

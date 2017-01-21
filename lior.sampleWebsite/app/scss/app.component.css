@@ -1,0 +1,23 @@
+﻿.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  font-size: 3vw;
+  z-index: 1; }
+  .container-top-left {
+    /*background-color: green;*/
+    background-image: linear-gradient(to bottom right, #8e9eff, #eef2f3); }
+  .container-bottom-left {
+    /*background-color: red;*/
+    background-image: linear-gradient(to top right, #8e9eff, #eef2f3); }
+  .container-bottom-right {
+    /*background-color: yellow;*/
+    background-image: linear-gradient(to top left, #8e9eff, #eef2f3); }
+  .container-top-right {
+    /*background-color: blue;*/
+    background-image: linear-gradient(to bottom left, #8e9eff, #eef2f3); }
+  .container-half-screen {
+    height: 50vh; }
+
